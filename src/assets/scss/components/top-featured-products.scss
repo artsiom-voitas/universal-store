@@ -114,10 +114,11 @@
         text-align: center;
         width: 75px;
         height: 25px;
+        position: relative;
     }
     
     &__quantity button {
-        display: inline-block;
+        position: absolute;
         background: #2A2A2A;
         max-height: 25px;
         min-width: 25px;
@@ -125,25 +126,33 @@
         padding: 0;
     }
 
+    .minus {
+        left: 0;
+    }
+
+    .plus {
+        right: 0;
+    }
+
     &__minus {
-        padding-top: 11.5px;
-        padding-bottom: 11.5px;
-        padding-left: 1px;
+        padding: 11.5px 5.5px;
     }
 
     &__plus {
-        padding-top: 5.5px;
-        padding-bottom: 5.5px;
-        padding-left: 1px;
+        padding: 5.5px;
     }
 
     &__number {
         font-family: 'Cerebri Sans Pro';
         font-style: normal;
+        font-weight: 800;
         font-size: 12px;
+        line-height: 22px;
+        color: #2A2A2A;
         width: 25px;
         height: 25px;
         border: none;
+        text-align: center;
     }
 
     &__checkbox {

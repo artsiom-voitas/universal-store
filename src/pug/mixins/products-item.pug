@@ -12,10 +12,10 @@ mixin products-item(args={})
             p.products__price.products__price--previous=args.previous_price
         .products__checkbox
             .products__quantity
-                button
+                button.minus
                     img.products__minus(src="./assets/imgs/minus.svg", alt="Minus")
-                input.products__number(type="number" placeholder='0')
-                button
+                input.products__number(type="text" placeholder='0')
+                button.plus
                     img.products__plus(src="./assets/imgs/plus.svg", alt="Plus")
             button.cart
                 img(src="./assets/imgs/cart.svg", alt="Cart")
