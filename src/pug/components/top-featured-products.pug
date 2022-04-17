@@ -1,0 +1,56 @@
+include ../mixins/products-item.pug
+
+section.products.block.container
+    h3.block__subtitle For You
+    h2.block__title Top Featured Products
+    .products__row
+        +products-item(
+            {
+                discount: '15%',
+                img: './assets/imgs/products/fresh-organic-apricot.jpg',
+                availability: 'Available(in stock)',
+                name: 'Fresh organic apricot',
+                current_price: '$12',
+                previous_price: '$15',
+            }
+        )
+        +products-item(
+            {
+                discount: '15%',
+                img: './assets/imgs/products/cucumber.jpg',
+                availability: 'Available(in stock)',
+                name: 'Cucumber',
+                current_price: '$12',
+                previous_price: '$15',
+            }
+        )
+        +products-item(
+            {
+                discount: '15%',
+                img: './assets/imgs/products/hazelnuts-filbert-nut.jpg',
+                availability: 'Available(in stock)',
+                name: 'Hazelnuts filbert nut',
+                current_price: '$12',
+                previous_price: '$15',
+            }
+        )
+        +products-item(
+            {
+                discount: '15%',
+                img: './assets/imgs/products/raw-broccoli.jpg',
+                availability: 'Available(in stock)',
+                name: 'Raw Broccoli',
+                current_price: '$12',
+                previous_price: '$15',
+            }
+        )
+        +products-item(
+            {
+                discount: '15%',
+                img: './assets/imgs/products/organic-quince.jpg',
+                availability: 'Available(in stock)',
+                name: 'Organic quince',
+                current_price: '$12',
+                previous_price: '$15',
+            }
+        )

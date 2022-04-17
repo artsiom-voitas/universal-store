@@ -1,11 +1,6 @@
 @import "../main/vars.scss";
 
-.category {
-    & {
-        font-family: 'Cerebri Sans Pro';
-        font-style: normal;
-    }
-
+.block {
     &__subtitle {
         margin-top: 60px;
         font-weight: 800;
@@ -20,7 +15,14 @@
         line-height: 30px;
         margin-bottom: 31px;
     }
+}
 
+.category {
+    & {
+        font-family: 'Cerebri Sans Pro';
+        font-style: normal;
+    }
+    
     &__row {
         display: flex;
         gap: 21px;
