@@ -1,0 +1,72 @@
+.slide {
+    padding: 36px;
+}
+
+.slide__item {
+    display: inline-block;
+    position: relative;
+}
+
+.swiper-slide {
+    // width: 370px;
+}
+
+.slide__img {
+    border: 6px solid #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    width: 340px;
+    height: 216px;
+}
+
+.slide__link {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    background: #7FAD39;
+    bottom: 20px;
+    padding: 22px 21px 19px 23px;
+}
+
+.slide__box {
+    background: #FFFFFF;
+    border-radius: 0px;
+    position: absolute;
+    left: 6px;
+    top: 20px;
+    max-width: 225px;
+    padding: 19px 21px 19px 20px;
+}
+
+.slide__discount {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 24px;
+    color: #7FAD39;
+}
+
+.slide__buy {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2A2A2A;
+}
+
+.slide__category {
+    font-family: 'Cerebri Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #757575;
+}

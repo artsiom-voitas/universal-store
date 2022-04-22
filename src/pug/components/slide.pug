@@ -1,0 +1,48 @@
+include ../mixins/slide-item.pug
+
+    // Slider main container
+.swiper.slide
+    // Additional required wrapper
+    .swiper-wrapper
+        // Slides
+        .swiper-slide
+            +slide-item(
+                {
+                    img: './assets/imgs/slider/item-1.jpg',
+                    discount: '6%',
+                    category: 'Fresh Vegetables'
+                }
+            )
+        .swiper-slide
+            +slide-item(
+                {
+                    img: './assets/imgs/slider/item-2.jpg',
+                    discount: '25%',
+                    category: 'Fresh Fruits'
+                }
+            )
+        .swiper-slide
+            +slide-item(
+                {
+                    img: './assets/imgs/slider/item-3.jpg',
+                    discount: '15%',
+                    category: 'Eggs & Dairy'
+                }
+            )
+        .swiper-slide
+            +slide-item(
+                {
+                    img: './assets/imgs/slider/item-4.jpg',
+                    discount: '10%',
+                    category: 'Nuts & Snacks'
+                }
+            )
+        .swiper-slide
+            +slide-item(
+                {
+                    img: './assets/imgs/slider/item-5.jpg',
+                    discount: '6%',
+                    category: 'Beverage'
+                }
+            )
+

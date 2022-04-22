@@ -1,0 +1,8 @@
+mixin slide-item(args={})
+    .slide__item
+        img.slide__img(src=args.img, alt="")
+        a.slide__link(href="$") Shop now
+        .slide__box
+            p.slide__discount=args.discount + "OFF"
+            p.slide__buy Buy More & Save More
+            p.slide__category=args.category
