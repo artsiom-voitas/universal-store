@@ -3,4 +3,78 @@
 @import "./components/header.scss";
 @import "./components/category.scss";
 @import "./components/top-featured-products.scss";
-@import "./components/slide.scss"
+@import "./components/slide.scss";
+@import "./components/catalog.scss";
+
+
+// .btn {
+//     margin: 50px;
+//     background: red;
+//     color: #fff;
+//     transition: background-color 0.4s ease 2s,
+//                 color 0.4s ease 2s;
+
+//     &:hover {
+//         background-color: green;
+//         color: black;
+//         transition: background-color 0.4s ease 2s,
+//         color 0.4s ease 2s;
+//     }
+// }
+
+// .box {
+//     margin: 50px;
+//     height: 100px;
+//     width: 100px;
+//     border: 5px solid #000;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     overflow: hidden;
+// }
+
+// .inner {
+//     height: 100%;
+//     width: 100%;
+//     background-image: url(../imgs/category/snacks.svg);
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     transition: transform 0.4s;
+//     transform-origin: top left;
+
+//     &:hover {
+//         // transform: translate(50%, 50%);
+//         // transform: rotate(360deg);
+//         // transform: scale(1.5);
+//         // transform: skew(30deg);
+//         // transform: matrix();
+
+//         transform: rotate(45deg);
+
+//     }
+// }
+
+// .box2 {
+//     height: 200px;
+//     width: 200px;
+//     background-color: yellow;
+//     animation: changeColor 5s steps(2) infinite;
+// }
+
+// @keyframes changeColor{
+//     0% {
+//         background-color: yellow;
+//     }
+//     25% {
+//         background-color: green;
+//     }
+//     50% {
+//         background-color: blue;
+//     }
+//     75% {
+//         background-color: red;
+//     }
+//     100% {
+//         background-color: yellow;
+//     }
+// }
