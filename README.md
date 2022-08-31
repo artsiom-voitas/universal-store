@@ -1,1 +1,1 @@
-# gulp-boilerplate
+# universal-store
